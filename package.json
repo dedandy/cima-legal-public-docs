@@ -1,0 +1,11 @@
+{
+  "name": "cima-legal-public-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate:legal-docs": "node scripts/validate-legal-docs.mjs",
+    "build:manifest": "node scripts/build-manifest.mjs",
+    "publish:pages": "echo 'Hook this to GitHub Pages or deployment target'"
+  }
+}
